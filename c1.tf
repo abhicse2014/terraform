@@ -1,7 +1,4 @@
 provider "aws" {
-    endpoints {
-    sts = "https://sts.us-east-1.amazonaws.com" # No trailing slash
-  }
   region = "us-east-1"  
   access_key = "AKIAVQNTEG3SAHFVKNGS"
   secret_key = "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"
