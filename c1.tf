@@ -3,6 +3,7 @@ terraform {
     bucket = "abhi123buckets"
     key = "remote.tfstate"
     region = "us-east-1"
+    shared_credentials_file = "/credentials"
 
   }
 }
