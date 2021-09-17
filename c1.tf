@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "abhi123buckets"
-    shared_credentials_file = "/credentials"
+    key = "remote.tfstate"
     region = "us-east-1"
 
   }
