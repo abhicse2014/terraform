@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket"
+    bucket = "abhi123buckets"
     key    = "terraform"
-    region = "us-east-1"
+
   }
 }
 
