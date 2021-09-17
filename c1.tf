@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "abhi123buckets"
-    key    = "terraform"
+    shared_credentials_file = "/credentials"
     region = "us-east-1"
 
   }
